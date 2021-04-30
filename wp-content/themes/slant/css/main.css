@@ -1,0 +1,20 @@
+.flex-wrapper {
+    min-height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    padding: 5vh 5vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+main h3 {
+    padding: 2vh 0;
+}
