@@ -22,7 +22,7 @@
     </div>
 
     <div id="header-center">
-        <a id="logo" href="<?php echo get_site_url() ?>" rel="home"><img src="<?php echo get_site_url().'/assets/img/logo.png' ?>"></a>
+        <a id="logo" href="<?php echo get_site_url() ?>" rel="home"><img src="<?php echo get_site_url().'/assets/img/logo - changed.png' ?>"></a>
     </div>
 
     <div id="header-right">
