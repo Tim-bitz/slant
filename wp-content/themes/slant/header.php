@@ -17,25 +17,19 @@
 <?php wp_head(); ?>
 
 <header>
-
-<div id="header-top-div">
-    <div class="header-top-left-right" id="header-top-div-left">
-        <h2><a id="logo" href="<?php echo get_site_url() ?>" rel="home">BlomsterSLANTen</a></h2>
-            
-        
-        <p>din blomsterbutik online</p>
+    <div id="header-left">
+        <?php wp_nav_menu( array( 'theme_location' => 'menu-header' ) ); ?>    
     </div>
 
-    <div class="header-top-left-right" id="header-top-div-right">
+    <div id="header-center">
+        <a id="logo" href="<?php echo get_site_url() ?>" rel="home"><img src="<?php echo get_site_url().'/assets/img/logo - changed.png' ?>"></a>
+    </div>
 
-    </div>  
-</div>
-
-<div id="header-bottom-div">
-    <?php wp_nav_menu(); ?>
-</div>
-
+    <div id="header-right">
+    <?php wp_nav_menu( array( 'theme_location' => 'menu-header-two' ) ); ?>   
+    </div>
 </header>
 
 <div class="flex-wrapper">
 <main>
+
