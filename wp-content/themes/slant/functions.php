@@ -62,3 +62,16 @@ register_nav_menus(
 );
 
 
+
+
+//widget för kategoridelen
+register_sidebar(
+    [
+        'name' => 'bastakat',
+        'description' => 'basta kategorien',
+        'id' => 'bastakat',
+        'before_widget' => ' ',
+        'after_widget' => ' '
+    ]
+);
+
