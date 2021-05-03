@@ -63,6 +63,7 @@ register_nav_menus(
 
 
 
+
 //widget för kategoridelen
 register_sidebar(
     [
