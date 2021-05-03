@@ -1,13 +1,50 @@
 footer {
     width: 100%;
-    height: 20vh;
+    height: auto;
 
-    padding: 0 5vw;
+    padding: 2 5vw;
 
     background-color: #9FB17C;
     color: #4B3B40;
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
+}
+ 
+.footerDiv {
+    width: 30%;
+}
+
+
+.footerOne {
+    width: 100%;
+    height: auto;
+    padding: 1 5vw;
+
+    background-color: #9FB17C;
+    color: #4B3B40;
+
+    
+    align-items: center;
+    justify-content: space-around;
+} 
+
+@media only screen and (min-width: 750px) {
+    .footerOne {
+        width: 100%;
+        height: auto;
+
+        padding: 0 5vw;
+
+        /* background-color: #9FB17C;
+        color: #4B3B40; */
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    
+
 }
