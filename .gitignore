@@ -73,6 +73,7 @@ $RECYCLE.BIN/
 /*
 !wp-content/
 !.gitignore
+!loggar/
 
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory
