@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-10 13:08:27+0000\n"
+"PO-Revision-Date: 2021-04-22 18:12:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -805,7 +805,7 @@ msgstr "Webbplatsinformation uppdaterad."
 
 #: wp-admin/network/themes.php:416
 msgid "You cannot delete a theme while it is active on the main site."
-msgstr "Du kan inte radera ett tema när det är aktivt på den primära webbplatsen."
+msgstr "Du kan inte ta bort ett tema medan det är aktivt på huvudwebbplatsen."
 
 #: wp-admin/network/themes.php:301
 msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
@@ -1090,7 +1090,7 @@ msgstr "Inaktivera, arkivera och skräppost som leder till bekräftelsesidor. De
 
 #: wp-admin/network/sites.php:32
 msgid "Hovering over each site reveals seven options (three for the primary site):"
-msgstr "Om du håller muspekaren över varje webbplats visas sju alternativ (tre för den primära webbplatsen):"
+msgstr "Om du för muspekaren över varje webbplats visas sju alternativ (tre för den primära webbplatsen):"
 
 #: wp-admin/network/settings.php:51
 msgid "Operational settings has fields for the network&#8217;s name and admin email."
@@ -1162,7 +1162,7 @@ msgstr "Registreringar för allmänheten kan inaktiveras/aktiveras under registr
 
 #: wp-admin/network/settings.php:50
 msgid "This screen sets and changes options for the network as a whole. The first site is the main site in the network and network options are pulled from that original site&#8217;s options."
-msgstr "Den här sidan används för att konfigurera och ändra inställningar för nätverket som helhet. Den första webbplatsen är den primära webbplatsen i nätverket och nätverksinställningarna hämtas från den ursprungliga webbplatsens inställningar."
+msgstr "Denna skärm ställer in och ändrar alternativ för nätverket som helhet. Den första webbplatsen är huvudwebbplatsen i nätverket och nätverksalternativ hämtas från de ursprungliga webbplatsens alternativ."
 
 #. translators: %s: Reserved names list.
 #: wp-admin/network/site-new.php:59
