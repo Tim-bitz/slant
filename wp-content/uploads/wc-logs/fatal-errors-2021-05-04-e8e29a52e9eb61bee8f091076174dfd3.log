@@ -1,0 +1,8 @@
+2021-05-04T11:23:19+00:00 CRITICAL Uncaught Error: Call to undefined function wp_the_title() in C:\MAMP\htdocs\slant\wp-content\themes\slant\home.php:4
+Stack trace:
+#0 C:\MAMP\htdocs\slant\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\slant\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\slant\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\slant\wp-content\themes\slant\home.php on line 4
+

@@ -1,7 +1,8 @@
 <?php
 get_header();
 ?>
-<div class="container">
+
+<div class="container" style="width: 100%">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -13,7 +14,7 @@ get_header();
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="./assets/img/flowers.png" alt="Los Angeles" style="width:100%;">
+        <img src="./assets/img/bildspel.png" alt="Los Angeles" style="width:100%;">
       </div>
 
       <div class="item">
@@ -39,7 +40,7 @@ get_header();
 <!-- <div id="imgDiv"><img id="imgMain" src="./assets/img/flowers.png"></div> -->
 
 <h1><?php the_title(); ?></h1>
-<hr>
+<hr id="mainLine">
 <!-- <div class="popDiv"> -->
     
     <?php dynamic_sidebar('bastakat'); ?>
