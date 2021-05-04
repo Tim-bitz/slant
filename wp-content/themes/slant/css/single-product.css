@@ -1,0 +1,32 @@
+/* Single-Products */
+.product{
+    width:100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.summary.entry-summary{
+    padding:10px;
+    height:300px;
+
+}
+.cart{
+    justify-content: space-evenly;
+}
+.single_add_to_cart_button{
+    width:55%;
+    margin:10px 0px 10px 0px;
+    padding:10px 16px 10px 16px;
+    background-color:#65724B;
+    border-radius: 10px;
+
+}
+.single_add_to_cart_button:focus{
+    background-color:#9caf76 ;
+}
+.amount{
+    color:#4B3B40;
+    font-size: 2em;
+}

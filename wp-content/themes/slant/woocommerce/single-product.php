@@ -15,12 +15,18 @@ get_header();
 		do_action( 'woocommerce_before_main_content' );
 		?>
 
-	
+
 <?php while ( have_posts() ) : ?>
 	
+	<?php remove_action( 'woocommerce_single_product_summary','woocommerce_template_single_add_to_cart', 30); ?>
 		<div class="product">
 				<?php the_post(); ?>
 			
+	<div class="wowclasstittahit">
+		<?php add_action( 'woocommerce_single_product_summary','woocommerce_template_single_add_to_cart',30 ); ?>
+
+	</div>
+				
 				<?php wc_get_template_part( 'content', 'single-product' );?>
 
 				<?php endwhile; // end of the loop. ?>
