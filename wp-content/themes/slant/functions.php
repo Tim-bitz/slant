@@ -17,7 +17,7 @@ register_sidebar(
     [
         'name' => 'Footer left',
         'description'=> 'Info till vänster i footern',
-        'id' => 'footerLeft',
+        'id' => 'footerleft',
         'before_widget' => ''
     ]
 );
@@ -26,7 +26,7 @@ register_sidebar(
     [
         'name' => 'Footer middle',
         'description'=> 'Info centrerat i footern',
-        'id' => 'footerCenter',
+        'id' => 'footercenter',
         'before_widget' => ''
     ]
 );
@@ -35,7 +35,7 @@ register_sidebar(
     [
         'name' => 'Footer right',
         'description'=> 'Info till höger i footern',
-        'id' => 'footerRight',
+        'id' => 'footerright',
         'before_widget' => ''
     ]
 );
@@ -61,6 +61,7 @@ register_sidebar( // widget för sökformulär
         )
 );
 
+//Menyer i headern
 register_nav_menus(
     array(
         'menu-header' => 'Header meny',
@@ -68,6 +69,12 @@ register_nav_menus(
         )
 );
 
+register_sidebar( // widget för produktkategori-meny
+    array(
+    'id' => 'productcategories',
+    'name' => 'Produktkategorier'
+    )
+);
 
 
 
@@ -82,3 +89,15 @@ register_sidebar(
     ]
 );
 
+
+// Visar vilken template aktuell sida använder
+function meks_which_template_is_loaded() {
+	if ( is_super_admin() ) {
+		global $template;
+		print_r( $template );
+	}
+}
+ 
+add_action( 'wp_footer', 'meks_which_template_is_loaded' );
+ 
+ 
