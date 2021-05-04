@@ -1,0 +1,8 @@
+2021-05-03T19:58:31+00:00 CRITICAL Uncaught Error: Call to undefined function get_side() in C:\MAMP\htdocs\slant\wp-content\themes\slant\home.php:35
+Stack trace:
+#0 C:\MAMP\htdocs\slant\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\slant\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\slant\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\slant\wp-content\themes\slant\home.php on line 35
+

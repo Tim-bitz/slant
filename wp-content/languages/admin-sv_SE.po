@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-14 18:45:21+0000\n"
+"PO-Revision-Date: 2021-04-29 10:04:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,105 +27,105 @@ msgstr "Europe/Stockholm"
 msgid "Continue"
 msgstr "Fortsätt"
 
-#: wp-admin/about.php:110
+#: wp-admin/about.php:143
 msgid "<strong>Buttons block:</strong> now you can choose a vertical or a horizontal layout. And you can set the width of a button to a preset percentage."
 msgstr "<strong>Knappblock:</strong> nu kan du välja mellan vertikal och vågrät layout. Och knappens bredd kan anges med en förinställd procentsats."
 
-#: wp-admin/about.php:206
+#: wp-admin/about.php:239
 msgid "Now it’s simple to let iframes lazy-load. By default, WordPress will add a <code>loading=\"lazy\"</code> attribute to iframe tags when both width and height are specified."
 msgstr "Nu är det enkelt att skjuta upp inladdning av iframes. Som standard kommer WordPress att lägga till attributet <code>loading=\"lazy\"</code> i taggarna för varje iframe som har både bredd och höjd angivna."
 
-#: wp-admin/about.php:204
+#: wp-admin/about.php:237
 msgid "In 5.7, jQuery gets more focused and less intrusive, with fewer messages in the console."
 msgstr "I version 5.7 blir jQuery mer fokuserat och mindre påträngande, med färre meddelanden till webbkonsolen."
 
-#: wp-admin/about.php:197
+#: wp-admin/about.php:230
 msgid "The new Robots API lets you include the filter directives in the robots meta tag, and the API includes the <code>max-image-preview: large</code> directive by default. That means search engines can show bigger image previews, which can boost your traffic (unless the site is marked <em>not-public</em>)."
 msgstr "Det nya Robots-API:et låter dig inkludera filtrets direktiv i meta-taggen för robotar, och API:et innehåller som standard direktivet <code>max-image-preview: large</code>. Det innebär att sökmotorer kan visa förhandsvisningar av bilder i större format (om inte webbplatsen är markerad som <em>privat</em>) och detta kan ge dig fler besökare."
 
-#: wp-admin/about.php:140
+#: wp-admin/about.php:173
 msgid "Above, the Dashboard before and after the color update in 5.7."
 msgstr "Ovan visas hur adminpanelen ser ut före och efter det nya färgschemat i version 5.7."
 
-#: wp-admin/about.php:137
+#: wp-admin/about.php:170
 msgid "Dashboard with new color scheme."
 msgstr "Adminpanel med det nya färgschemat."
 
-#: wp-admin/about.php:135
+#: wp-admin/about.php:168
 msgid "Dashboard with old color scheme."
 msgstr "Adminpanel med det gamla färgschemat."
 
-#: wp-admin/about.php:115
+#: wp-admin/about.php:148
 msgid "<strong>Social Icons block:</strong> now you can change the size of the icons."
 msgstr "<strong>Block för sociala ikoner:</strong> nu kan du ändra ikonernas storlek."
 
-#: wp-admin/about.php:205
+#: wp-admin/about.php:238
 msgid "Lazy-load your iframes"
 msgstr "Uppskjuten inläsning av dina ”iframes”"
 
-#: wp-admin/about.php:203
+#: wp-admin/about.php:236
 msgid "For years jQuery helped make things move on the screen in ways the basic tools couldn’t—but that keeps changing, and so does jQuery."
 msgstr "I flera år har jQuery hjälpt till att ordna saker på skärmen som inte går att klara med de grundläggande verktygen – men allt det ändras, och även jQuery förändras."
 
-#: wp-admin/about.php:202
+#: wp-admin/about.php:235
 msgid "Ongoing cleanup after update to jQuery 3.5.1"
 msgstr "Pågående städning efter uppdateringen till jQuery 3.5.1"
 
-#: wp-admin/about.php:194
+#: wp-admin/about.php:227
 msgid "New Robots API"
 msgstr "Nytt API för robotar"
 
-#: wp-admin/about.php:193
+#: wp-admin/about.php:226
 msgid "Starting now, switching a site from HTTP to HTTPS is a one-click move. WordPress will automatically update database URLs when you make the switch. No more hunting and guessing!"
 msgstr "Från och med nu räcker det med ett klick för att flytta en webbplats från HTTP till HTTPS. WordPress uppdaterar automatiskt URL:er i databasen när du gör denna ändring. Nu behöver du inte längre leta och gissa!"
 
-#: wp-admin/about.php:192
+#: wp-admin/about.php:225
 msgid "From HTTP to HTTPS in a single click"
 msgstr "Från HTTP till HTTPS med ett enda klick"
 
 #. translators: %s: Color palette dev note link.
-#: wp-admin/about.php:171
+#: wp-admin/about.php:204
 msgid "Find the new palette in the default WordPress Dashboard color scheme, and use it when you’re building themes, plugins, or any other components. For all the details, <a href=\"%s\">check out the Color Palette dev note</a>."
 msgstr "Upptäck den nya paletten i WordPress standardfärgschema för adminpanelen och använd den när du bygger teman, tillägg och andra komponenter. Du hittar all information om du <a href=\"%s\">läser informationen för utvecklare om den nya färgpaletten</a>."
 
-#: wp-admin/about.php:164
+#: wp-admin/about.php:197
 msgid "Half the range has a 4.5 or higher contrast ratio against black, and the other half maintains the same contrast against white."
 msgstr "Hälften av färgskalan har kontrastvärdet 4,5 eller högre mot svart, och den andra hälften har lika god kontrast mot vitt."
 
-#: wp-admin/about.php:157
+#: wp-admin/about.php:190
 msgid "The colors are perceptually uniform from light to dark in each range, which means they start at white and get darker by the same amount with each step."
 msgstr "Färgerna upplevs som samordnade, från ljus till mörkt i varje skala, vilket innebär att de börjar i vitt och sedan för varje steg blir lika mycket mörkare."
 
 #. translators: %s: WCAG information link.
-#: wp-admin/about.php:150
+#: wp-admin/about.php:183
 msgid "This new streamlined color palette collapses all the colors that used to be in the WordPress source code down to seven core colors and a range of 56 shades that meet the <a href=\"%s\">WCAG 2.0 AA recommended contrast ratio</a> against white or black."
 msgstr "Denna nya, effektiviserade färgpalett slår samman alla olika färger som tidigare fanns i WordPress källkod till sju grundfärger och en uppsättning med 56 färgtoner som uppfyller <a href=\"%s\">de rekommenderade kontrasterna i WCAG 2.0 AA</a> mot vitt eller svart."
 
-#: wp-admin/about.php:128
+#: wp-admin/about.php:161
 msgid "A Simpler Default Color Palette"
 msgstr "Förenklad standardpalett med färger"
 
-#: wp-admin/about.php:105
+#: wp-admin/about.php:138
 msgid "<strong>Full-height alignment:</strong> have you ever wanted to make a block, like the Cover block, fill the whole window? Now you can."
 msgstr "<strong>Fullhöjdsjustering:</strong> har du någonsin önskat låta något block, t.ex. omslagsblocket täcka hela fönstret? Nu är det möjligt."
 
-#: wp-admin/about.php:100
+#: wp-admin/about.php:133
 msgid "You can do more without writing custom code"
 msgstr "Du kan göra mer utan att behöva skriva anpassad kod"
 
-#: wp-admin/about.php:86
+#: wp-admin/about.php:119
 msgid "<strong>Inserter drag-and-drop:</strong> drag blocks and block patterns from the inserter right into your post."
 msgstr "<strong>Dra och släpp i infogaren:</strong> dra block och blockmönster direkt från infogaren över till ditt inlägg."
 
-#: wp-admin/about.php:81
+#: wp-admin/about.php:114
 msgid "<strong>Reusable blocks:</strong> several enhancements make reusable blocks more stable and easier to use. And now they save automatically with the post when you click the Update button."
 msgstr "<strong>Återanvändbara block:</strong> en rad förbättringar innebär att återanvändbara nu är både stabilare och enklare att använda. Och nu sparas de automatiskt tillsammans med ditt inlgg när du klickar på uppdatera-knappen."
 
-#: wp-admin/about.php:76
+#: wp-admin/about.php:109
 msgid "<strong>Font-size adjustment in more places:</strong> now, font-size controls are right where you need them in the List and Code blocks. No more trekking to another screen to make that single change!"
 msgstr "<strong>Justering av textstorlek på fler platser:</strong> nu finns reglagen för textstorlekarna precis där du behöver dem i blocken för listor och kod. Du behöver inte längre gå till en annan sida för den lilla ändringen!"
 
-#: wp-admin/about.php:71
+#: wp-admin/about.php:104
 msgid "Now the editor is easier to use"
 msgstr "Redigeraren har blivit enklare att använda"
 
@@ -503,7 +503,7 @@ msgid "https://developer.wordpress.org/rest-api/frequently-asked-questions/#why-
 msgstr "https://developer.wordpress.org/rest-api/frequently-asked-questions/#why-is-authentication-not-working"
 
 #. translators: %s: WordPress 5.7 Field Guide link.
-#: wp-admin/about.php:219
+#: wp-admin/about.php:252
 msgid "Check out the latest version of the WordPress Field Guide. It highlights developer notes for each change you may want to be aware of. <a href=\"%s\">WordPress 5.7 Field Guide.</a>"
 msgstr "Kolla in den senaste versionen av WordPress fälthandbok. Den innehåller viktig information för utvecklare kring alla ändringar du kan behöva känna till. <a href=\"%s\">WordPress 5.7 Field Guide</a>."
 
@@ -574,7 +574,7 @@ msgstr "Lägg till nytt applikationslösenord"
 msgid "Required to create an Application Password, but not to update the user."
 msgstr "Krävs för att skapa ett applikationslösenord men inte för att uppdatera användaren."
 
-#: wp-admin/about.php:232
+#: wp-admin/about.php:265
 msgid "Go to Updates"
 msgstr "Gå till uppdateringar"
 
@@ -783,7 +783,7 @@ msgstr "Auktorisations-headern är ogiltig."
 
 #: wp-admin/includes/class-wp-site-health.php:2203
 msgid "The authorization header is missing."
-msgstr "Auktorisations-header saknas."
+msgstr "Auktorisations-headern saknas."
 
 #: wp-admin/includes/class-wp-site-health.php:2196
 msgid "The Authorization header comes from the third-party applications you approve. Without it, those apps cannot connect to your site."
@@ -931,7 +931,7 @@ msgstr "Värdet ”%1$s” är mindre än ”%2$s”."
 msgid "Environment type"
 msgstr "Typ av driftsmiljö"
 
-#: wp-admin/about.php:214
+#: wp-admin/about.php:247
 msgid "Check the Field Guide for more!"
 msgstr "Läs mer i handboken!"
 
@@ -4002,7 +4002,7 @@ msgstr "Går inte att installera"
 
 #. translators: %s: WordPress version.
 #: wp-admin/includes/update.php:302 wp-admin/install.php:238
-#: wp-admin/update-core.php:84 wp-admin/upgrade.php:80
+#: wp-admin/update-core.php:84 wp-admin/upgrade.php:80 wp-admin/about.php:91
 msgid "https://wordpress.org/support/wordpress-version/version-%s/"
 msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
@@ -6412,7 +6412,7 @@ msgid "(Currently set to: %s)"
 msgstr "(Just nu satt till: %s)"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:333
+#: wp-admin/about.php:366
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>Version %s</strong> åtgärdar en sårbarhet."
 
@@ -6424,15 +6424,15 @@ msgstr "https://sv.gravatar.com/"
 msgid "Profile Picture"
 msgstr "Profilbild"
 
-#: wp-admin/about.php:330
+#: wp-admin/about.php:71 wp-admin/about.php:363
 msgid "Maintenance and Security Releases"
 msgstr "Underhålls- och säkerhetsutgåvor"
 
-#: wp-admin/about.php:327
+#: wp-admin/about.php:360
 msgid "Security Releases"
 msgstr "Säkerhetsutgåvor"
 
-#: wp-admin/about.php:324
+#: wp-admin/about.php:357
 msgid "Maintenance Releases"
 msgstr "Underhållsutgåvor"
 
@@ -7070,7 +7070,7 @@ msgstr[1] "%s kommentarer"
 
 #: wp-admin/includes/ajax-actions.php:3876
 msgid "Image could not be processed."
-msgstr "Bilden kunde inte behandlas."
+msgstr "Bilden kunde inte bearbetas."
 
 #: wp-admin/install.php:167 wp-admin/user-new.php:585
 #: wp-admin/user-edit.php:663
@@ -8035,7 +8035,7 @@ msgstr "För att aktivera en widget, dra den till ett widgetfält eller klicka p
 #. translators: %s: The rating.
 #: wp-admin/includes/template.php:2645
 msgid "%s rating"
-msgstr "%s betyg"
+msgstr "Betyg %s"
 
 #. translators: 1: The rating, 2: The number of ratings.
 #: wp-admin/includes/template.php:2641
@@ -9922,14 +9922,15 @@ msgstr "Ange e-postadressen till en befintlig användare i det här nätverket f
 msgid "Show Toolbar when viewing site"
 msgstr "Visa verktygsfält när du är på webbplatsen"
 
+#. translators: %s: HelpHub URL.
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:356
+#: wp-admin/about.php:88 wp-admin/about.php:389
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Läs mer i <a href=\"%s\">uppgifterna om utgåvan</a>."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:350
+#: wp-admin/about.php:76 wp-admin/about.php:383
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>Version %1$s</strong> åtgärdar några sårbarheter och rättar %2$s fel."
@@ -9937,14 +9938,14 @@ msgstr[1] "<strong>Version %1$s</strong> åtgärdar några sårbarheter och rät
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:344
+#: wp-admin/about.php:377
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>Version %1$s</strong> åtgärdar en säkerhetsrisk och rättar %2$s fel."
 msgstr[1] "<strong>Version %1$s</strong> åtgärdar en säkerhetsrisk och rättar %2$s fel."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:338
+#: wp-admin/about.php:371
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>Version %1$s</strong> åtgärdar %2$s fel."
@@ -9955,19 +9956,19 @@ msgid "Welcome to your WordPress Dashboard! This is the screen you will see when
 msgstr "Välkommen till din adminpanel för WordPress! Det här är sidan du kommer att se när du loggar in på din webbplats. Den ger dig tillgång till alla administrativa sidor för att hantera din webbplats. Du kan hitta hjälp för alla sidor i administrationen genom att klicka på fliken Hjälp uppe i hörnet."
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:335
+#: wp-admin/about.php:368
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>Version %s</strong> åtgärdar sårbarheter."
 
-#: wp-admin/about.php:329
+#: wp-admin/about.php:362
 msgid "Maintenance and Security Release"
 msgstr "Underhålls- och säkerhetsutgåva"
 
-#: wp-admin/about.php:326
+#: wp-admin/about.php:359
 msgid "Security Release"
 msgstr "Säkerhetsutgåva"
 
-#: wp-admin/about.php:323
+#: wp-admin/about.php:356
 msgid "Maintenance Release"
 msgstr "Underhållsutgåva"
 
@@ -10137,7 +10138,7 @@ msgstr "Inaktiv sidopanel (används inte)"
 
 #: wp-admin/media-new.php:53
 msgid "Clicking <strong>Select Files</strong> opens a navigation window showing you files in your operating system. Selecting <strong>Open</strong> after clicking on the file you want activates a progress bar on the uploader screen."
-msgstr "Om du klickar <strong>Välj filer</strong> öppnas ett bläddringsfönster som visar filer i operativsystemet. Välja <strong>Öppna</strong> efter att ha klickat på filen du vill ladda upp och en förloppsindikator kommer att visas på sidan."
+msgstr "Om du klickar på <strong>Välj filer</strong> öppnas ett navigeringsfönster som visar dig dina filer i ditt operativsystem. Om du väljer <strong>Öppna</strong> efter att du har klickat på den fil du vill ha aktiveras en förloppsindikator på uppladdningssidan."
 
 #: wp-admin/media-new.php:52
 msgid "<strong>Drag and drop</strong> your files into the area below. Multiple files are allowed."
@@ -10252,11 +10253,11 @@ msgstr "<strong>Redigera</strong> tar dig till inläggets redigeringssida. Du ko
 msgid "Because this is a multisite installation, you may add accounts that already exist on the Network by specifying a username or email, and defining a role. For more options, such as specifying a password, you have to be a Network Administrator and use the hover link under an existing user&#8217;s name to Edit the user profile under Network Admin > All Users."
 msgstr "Eftersom detta är en nätverksinstallation av WordPress kan du lägga till konton som redan finns på nätverket genom att ange ett användarnamn eller en e-postadress och ange en roll. För fler alternativ, som till exempel att ange ett lösenord, måste du vara en nätverksadministratör och använda åtgärdslänken ”Redigera” under en befintlig användares namn för att redigera användarprofilen på sidan Nätverksadministration > Alla användare."
 
-#: wp-admin/about.php:235
+#: wp-admin/about.php:268
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Gå till Adminpanel &rarr; Hem"
 
-#: wp-admin/about.php:232
+#: wp-admin/about.php:265
 msgid "Go to Dashboard &rarr; Updates"
 msgstr "Gå till adminpanel &rarr; Uppdateringar"
 
@@ -10363,7 +10364,7 @@ msgstr "Tumblr"
 #. translators: 1: Browser update URL, 2: Browser name, 3: Browse Happy URL.
 #: wp-admin/includes/dashboard.php:1653
 msgid "<a href=\"%1$s\" class=\"update-browser-link\">Update %2$s</a> or learn how to <a href=\"%3$s\" class=\"browse-happy-link\">browse happy</a>"
-msgstr "<a href=\"%1$s\" class=\"update-browser-link\">Uppdatera %2$s</a> eller lär dig mer om hur du<a href=\"%3$s\" class=\"browse-happy-link\">surfar med glädje</a>"
+msgstr "<a href=\"%1$s\" class=\"update-browser-link\">Uppdatera %2$s</a> eller lär dig mer om hur du<a href=\"%3$s\" class=\"browse-happy-link\">surfar säkert</a>"
 
 #. translators: 1: Link start tag, 2: Link end tag, 3: Width, 4: Height.
 #: wp-admin/includes/media.php:3070
@@ -12092,7 +12093,7 @@ msgstr "Uppdateringar för WordPress"
 msgid "Edit menu item"
 msgstr "Redigera menyval"
 
-#: wp-admin/about.php:235 wp-admin/includes/network.php:148
+#: wp-admin/about.php:268 wp-admin/includes/network.php:148
 msgid "Go to Dashboard"
 msgstr "Gå till adminpanelen"
 
@@ -12787,7 +12788,7 @@ msgstr "Integritetsinställningar"
 #. translators: %s: web.config
 #: wp-admin/options-permalink.php:405
 msgid "If you temporarily make your site&#8217;s root directory writable for us to generate the %s file automatically, do not forget to revert the permissions after the file has been created."
-msgstr "Om du temporärt gör din rotkatalog för webbservern skrivbar för att WordPress ska kunna generera filen %s automatiskt, glöm inte att återställa rättigheterna efter att filen har skapats."
+msgstr "Om du temporärt gör din webbplats rotkatalog skrivbar för oss att generera filen %s automatiskt, glöm inte bort att återställa behörigheterna efter att filen har skapats."
 
 #. translators: %s: web.config
 #: wp-admin/options-permalink.php:380
@@ -13674,7 +13675,7 @@ msgstr "<strong>Varning:</strong> Det här tillägget har <strong>inte testats</
 
 #: wp-admin/includes/plugin-install.php:708
 msgid "Average Rating"
-msgstr "Genomsnittligt omdöme"
+msgstr "Snittbetyg"
 
 #: wp-admin/includes/plugin-install.php:700
 msgid "WordPress.org Plugin Page &#187;"
@@ -13716,8 +13717,8 @@ msgstr "Installera uppdatering nu"
 #: wp-admin/includes/plugin-install.php:722
 msgid "(based on %s rating)"
 msgid_plural "(based on %s ratings)"
-msgstr[0] "(baserat på %s omdöme)"
-msgstr[1] "(baserat på %s omdömen)"
+msgstr[0] "(baserat på %s betyg)"
+msgstr[1] "(baserat på %s betyg)"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:537
 #: wp-admin/includes/theme-install.php:187
@@ -13752,12 +13753,12 @@ msgstr "Populära etiketter"
 
 #: wp-admin/includes/meta-boxes.php:1372
 msgid "(Leave at 0 for no rating.)"
-msgstr "(lämna som 0 om du inte vill ange omdöme)"
+msgstr "(Lämna som 0 för att inte ge något betyg.)"
 
 #: wp-admin/includes/class-wp-links-list-table.php:138
 #: wp-admin/includes/meta-boxes.php:1361
 msgid "Rating"
-msgstr "Omdöme"
+msgstr "Betyg"
 
 #: wp-admin/includes/meta-boxes.php:1357
 msgid "Notes"
@@ -14351,7 +14352,7 @@ msgstr "Ingen fil laddades upp."
 
 #: wp-admin/includes/file.php:829
 msgid "The uploaded file was only partially uploaded."
-msgstr "Filen är endast delvis uppladdad."
+msgstr "Filen blev endast delvis uppladdad."
 
 #: wp-admin/includes/file.php:405 wp-admin/includes/file.php:465
 #: wp-admin/includes/file.php:705 wp-admin/includes/file.php:711
