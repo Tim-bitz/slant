@@ -40,7 +40,14 @@ register_sidebar(
     ]
 );
 
-
+register_sidebar(
+    [
+        'name' => 'kategori',
+        'description'=> 'Kategori i sidebar, blogg',
+        'id' => 'kategori',
+        'before_widget' => ' '
+    ]
+);
 
 
 register_sidebar( // widget för sökformulär

@@ -9,6 +9,7 @@
 main {
     width: 100%;
     height: auto;
+    margin-top: 30px;
 
     display: flex;
     flex-direction: column;
@@ -37,8 +38,8 @@ h1 {
     color: #4B3B40;
 }
 
-hr {
-    border: 1px solid #ccc7c9;
+ #mainLine {
+    margin-top: 0;
 }
 
 /* .popDiv {
@@ -54,13 +55,16 @@ hr {
     justify-content: space-between;
 } 
  
-
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+}
 
  li {
    display: flex;
    flex-direction: column;
    max-width: 320px;
 } 
+
 
 /* 
 a:link {
@@ -118,3 +122,5 @@ a:link {
     color:#4B3B40;
     font-size: 2em;
 }
+}
+
