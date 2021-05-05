@@ -1,5 +1,5 @@
 #woocommerce_product_categories-2 {
-    max-width: unset;
+    max-width: 100%;
     margin: 0;
 }
 
@@ -16,4 +16,52 @@ ul.product-categories {
 
 ul.product-categories a {
     color: #4B3B40;
+}
+
+/* Div(#outer-container) that contains div(#inner-container).Purpose is to center div(#inner-container) */
+#outer-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Div(#inner-container) contains all content but category menu */
+#inner-container {
+    width: 95%;
+}
+
+/* Displays product-cards */
+.woocommerce-products-header {
+    display: flex;
+    align-items: center;
+
+    margin-top: 1vh;
+}
+
+/* Displays product-cards */
+.products.columns-4 { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* Last row of product-cards */
+/* .products.columns-4::after { 
+    content: "";
+    flex: auto;
+} */
+
+#pagination-div {
+    display: flex;
+    justify-content: center;
+}
+
+.page-numbers {
+    display: flex;
+}
+
+@media only screen and (max-width: 950px) {
+
+
+
+
 }

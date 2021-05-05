@@ -72,15 +72,6 @@ register_nav_menus(
         )
 );
 
-register_sidebar( // widget för produktkategori-meny
-    array(
-    'id' => 'productcategories',
-    'name' => 'Produktkategorier'
-    )
-);
-
-
-
 //widget för kategoridelen
 register_sidebar(
     [
