@@ -7,6 +7,12 @@ register_sidebar( // widget för produktkategori-meny
     )
 );
 
+/* add_action('init', 'print_category_menu');
+
+function print_category_menu() {
+    add_action('woocommerce_before_main_content', 'printNavMenu');
+} */
+
 add_action('woocommerce_before_main_content', 'printNavMenu');
 
 function printNavMenu() {
