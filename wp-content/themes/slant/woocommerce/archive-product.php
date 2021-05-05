@@ -26,12 +26,18 @@ get_header( 'shop' );
  * @hooked WC_Structured_Data::generate_website_data() - 30
  */
 
-do_action( 'woocommerce_before_main_content' );
+do_action( 'custom_before_main_content' );
 
 ?>
 
 <div id="outer-container">
 <div id="inner-container">
+
+<?php
+
+do_action( 'woocommerce_before_main_content' );
+
+?>
 
 <header class="woocommerce-products-header">
 	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>

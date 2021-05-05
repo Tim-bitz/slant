@@ -78,6 +78,9 @@ $table_prefix = 'wp_';
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_LOG', true);
+define( 'WP_DEBUG_DISPLAY', false);
+@ini_set( 'display_errors', 0);
 
 /* That's all, stop editing! Happy publishing. */
 
