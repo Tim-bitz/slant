@@ -5,4 +5,8 @@
 * Byggt en mockup av hur sidan kan komma att se ut, Valt ut färgteman och design val tillsammans med Linda.
 
 * Bygg upp ett första skelet utav första sidan, "first-page".
-30/04/2021 
+30/04/2021
+
+* Styla Single-product.php , Försökt forma layout efter mockup med viss utmaning av program och tekniskt motgång. Tillsammans med grupp förfina produktloggen.
+* felsökt varför mamp och databas inte pratar. 
+ 04/05/2021
