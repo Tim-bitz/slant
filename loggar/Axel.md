@@ -19,3 +19,7 @@
 -skapat en widget som ska innehålla meny med produktkategorier
 -lagt in widgeten vid 'woocommerce_before_main_content'-hooken
 -stylat menyn
+-Fick problem med MAMP
+
+5/5
+-MAMP-problemet var att jag hade satt siteurl/home till local istället för localhost i min databas.

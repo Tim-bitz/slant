@@ -1,5 +1,6 @@
-li#woocommerce_product_categories-2 {
+#woocommerce_product_categories-2 {
     max-width: unset;
+    margin: 0;
 }
 
 ul.product-categories {
