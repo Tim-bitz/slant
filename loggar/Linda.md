@@ -1,3 +1,4 @@
+
 **Torsdag 27/4 2021**
 Min första logg. 
 Utdelning av projektarbete. 
@@ -21,3 +22,22 @@ När mockupen var klar var det bara att köra igång med kodningen. Gruppen saml
 Min uppgift till nästa gång är att skapa startsidan på hemsidan där vi ska samla våra populäraste produkter och även lägga in ett bildspel. 
 
 **Måndag 3/5 2021**
+En trögstartad måndag där ett gruppsamtal pågick under dagen där vi med Ians hjälp ville rätta till några problem via Github.
+Vi var tvunga att ta bort woocoomerce vid commit till Github. Det löste sig dock smidigt!
+
+Nu under eftermiddag/kväll har jag suttit med bloggsidan för att få ut något på home.php. Även det gick bra :) 
+
+**Tisdag 4/5 2021**
+Vilken dag! Vi startade med våran 9-möte imorse. Alla visade upp vad vi hade gjort under gårdagen. Vi verkar komma framåt, vilket känns bra. Det är alltid lite svårt innan man kommer igång att få till något att göra trots att det finns oändligt med uppgifter. 
+
+Jag fortsätte dagen med att styla och få ut mer på bloggsidan. På eftermiddagen pushade vi upp till Github, och skickade upp det till våran gemensamma server. 
+
+Nu på eftermiddag/kväll har jag skapat våra kampanjbilder till bildspelet. Förhoppningsvis blir alla nöjda över dem. Jag tycker att dem blev fina ialla fall! 
+
+Lyckades hämta en av 3 bilder från databasen, den stora frågan är hur man får ut resten. Hmmmmm......
+
+
+Hur jag löste det får du reda på i nästa logg!
+
+**Onsdag 5/5 2021**
+
