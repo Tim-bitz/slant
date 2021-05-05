@@ -10,3 +10,7 @@
 * Styla Single-product.php , Försökt forma layout efter mockup med viss utmaning av program och tekniskt motgång. Tillsammans med grupp förfina produktloggen.
 * felsökt varför mamp och databas inte pratar. 
  04/05/2021
+
+* Fått i ordning Single-produkt sidan med en ok layout, hanterat mestadels css och hooks för att få till placering med flex,padding,margin och nyttjande av det bestämda färgschemat.
+* Brytit ut Kraven för tydligar behov av vad som faktiskt behöver göras för uppgiften.
+ /05/05/2021
