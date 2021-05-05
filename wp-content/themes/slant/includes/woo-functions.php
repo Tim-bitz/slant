@@ -30,4 +30,5 @@ function printNavMenu() {
     dynamic_sidebar('productcategories');
 }
 
+
 ?>
