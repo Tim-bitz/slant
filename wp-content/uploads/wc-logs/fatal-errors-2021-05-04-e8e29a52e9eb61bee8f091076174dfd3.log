@@ -6,3 +6,5 @@ Stack trace:
 #3 {main}
   thrown in C:\MAMP\htdocs\slant\wp-content\themes\slant\home.php on line 4
 
+2021-05-04T13:05:36+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\MAMP\htdocs\slant\wp-content\themes\slant\woocommerce\content-single-product.php on line 20
+

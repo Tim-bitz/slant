@@ -1,4 +1,7 @@
 <?php
+
+include('includes/woo-functions.php');
+
 //lägger till menyer i admin
 add_theme_support('woocommerce');
 add_theme_support('post-thumbnail');
