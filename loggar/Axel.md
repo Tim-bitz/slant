@@ -40,4 +40,6 @@
 -added a specific header to archive-products.php to get specific css-files (temporary fix)
 
 6/5
--
+-Gått igenom vilka krav vi har kvar på hemsidan
+-Pratat med Ian och förtydligat vad som menas med att utnyttja cache
+-Skapat mobilanpassad header
