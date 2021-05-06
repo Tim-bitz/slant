@@ -17,7 +17,8 @@
 
 defined( 'ABSPATH' ) || exit;
 
-get_header( 'shop' );
+//get_header( 'shop' );
+get_template_part('header-shop');
 /**
  * Hook: woocommerce_before_main_content.
  *
@@ -26,10 +27,19 @@ get_header( 'shop' );
  * @hooked WC_Structured_Data::generate_website_data() - 30
  */
 
-dynamic_sidebar('productcategories');
+do_action( 'custom_before_main_content' );
+
+?>
+
+<div id="outer-container">
+<div id="inner-container">
+
+<?php
+
 do_action( 'woocommerce_before_main_content' );
 
 ?>
+
 <header class="woocommerce-products-header">
 	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 		<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
@@ -102,5 +112,12 @@ do_action( 'woocommerce_after_main_content' );
  * @hooked woocommerce_get_sidebar - 10
  */
 do_action( 'woocommerce_sidebar' );
+
+?>
+
+</div> <!-- inner-container -->
+</div> <!-- outer-container -->
+
+<?php
 
 get_footer( 'shop' );

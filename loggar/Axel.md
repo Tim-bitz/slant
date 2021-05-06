@@ -13,3 +13,13 @@
 -Vi löste med Ians hjälp problemet med .gitignore. För det första hade vi filändelsen .md på den. För det andra ignorerade den sig själv så den hängde inte med till GitHub.
 -Slutligen satt vi och såg till att alla kom åt servern via filezilla
 -Vi har fått upp senaste koden på servern, så header/footer/grundsidor är på plats.
+
+4/5
+-Skapat archive-product.php i slant-temat, och kopierat innehållet från woocommerce
+-skapat en widget som ska innehålla meny med produktkategorier
+-lagt in widgeten vid 'woocommerce_before_main_content'-hooken
+-stylat menyn
+-Fick problem med MAMP
+
+5/5
+-MAMP-problemet var att jag hade satt siteurl/home till local istället för localhost i min databas.
