@@ -21,7 +21,14 @@ get_header();
 
 <?php while ( have_posts() ) : ?>
 	<?php the_post(); ?>
+	<?php remove_action("woocommerce_after_single_product_summary","woocommerce_output_product_data_tabs",10)?>
+	
+	<?php add_action("woocommerce_after_single_product_summary","woocommerce_output_product_data_tabs", 14)?>
+	
+	
 	<?php wc_get_template_part( 'content', 'single-product' );?>
+	
+	
 	<?php endwhile; // end of the loop. ?>
 	
 	

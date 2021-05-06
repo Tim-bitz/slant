@@ -14,3 +14,7 @@
 * Fått i ordning Single-produkt sidan med en ok layout, hanterat mestadels css och hooks för att få till placering med flex,padding,margin och nyttjande av det bestämda färgschemat.
 * Brytit ut Kraven för tydligar behov av vad som faktiskt behöver göras för uppgiften.
  /05/05/2021
+
+* Grupp - gått igenom kraven och kontrollerat vad som är klart och vad som är kvar. Svärmat på att ta fram Sidan Butik och hittat alternativa sätt att ta fram en karta.
+Nyttjat plugins men vid begränsing av att den visar endast engång. Vi Tog hjälp av google maps då de hade färdg kod med imbäddning att lägga på sidan som ävensnabbt länkar till google maps.
+ 06/05/2021
