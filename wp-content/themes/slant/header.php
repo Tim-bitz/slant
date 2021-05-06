@@ -22,7 +22,16 @@
 
 <?php wp_head(); ?>
 
-<header>
+<header id="mobile">
+    <div id="mobile-header-left">
+        <a id="logo" href="<?php echo get_site_url() ?>" rel="home"><img src="<?php echo get_site_url().'/assets/img/logo - changed.png' ?>"></a>
+    </div>
+    <div id="mobile-header-right">
+        
+    </div>
+</header>
+
+<header id="desktop">
     <div id="header-left">
         <?php wp_nav_menu( array( 'theme_location' => 'menu-header' ) ); ?>    
     </div>
