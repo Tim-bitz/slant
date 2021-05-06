@@ -1,4 +1,7 @@
 <?php
+
+include('includes/woo-functions.php');
+
 //lägger till menyer i admin
 add_theme_support('woocommerce');
 add_theme_support('post-thumbnail');
@@ -68,15 +71,6 @@ register_nav_menus(
         'menu-header-two' => 'Header meny 2'
         )
 );
-
-register_sidebar( // widget för produktkategori-meny
-    array(
-    'id' => 'productcategories',
-    'name' => 'Produktkategorier'
-    )
-);
-
-
 
 //widget för kategoridelen
 register_sidebar(
