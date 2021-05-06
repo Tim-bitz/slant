@@ -3,6 +3,7 @@
 version: 1.6.4 */
 ?>
 
+<link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/single-product.css' ?>">
 <?php
 get_header();
 ?>

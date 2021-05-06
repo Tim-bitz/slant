@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/footer.css' ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/home.css' ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/main.css' ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/single-product.css' ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/shop.css' ?>">
 
     <title>Blomsterslanten</title>

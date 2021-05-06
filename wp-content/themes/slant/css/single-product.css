@@ -92,7 +92,7 @@ h2{
 }
 
 .section, .related{
-    top:0;
+    margin-top:10px;
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
