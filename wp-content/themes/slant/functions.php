@@ -93,5 +93,7 @@ function meks_which_template_is_loaded() {
 }
  
 add_action( 'wp_footer', 'meks_which_template_is_loaded' );
- 
+
+/* remove_action();
+  */
  
