@@ -1,5 +1,7 @@
+
+
 <?php
-get_header();
+get_header(); /* hämtar header */
 ?>
 
 <div class="container" style="width: 100%">
@@ -27,7 +29,7 @@ get_header();
         ?> 
             <div class="item <?php 
             if($varvRäknare === 0)
-            {echo 'active';} 
+            {echo 'active';}
             
             ?>">
 
@@ -61,17 +63,20 @@ get_header();
         </a>
     </div>
 </div>
-<!-- <div id="imgDiv"><img id="imgMain" src="./assets/img/flowers.png"></div> -->
+
+
+<?php while (have_posts()) { //startar loopen
+            the_post();?>
 
 <h1><?php the_title(); ?></h1>
-<hr id="mainLine">
-<!-- <div class="popDiv"> -->
-
-<?php dynamic_sidebar('bastakat'); ?>
+<div><?php the_content();?></div>
 
 
-<!-- </div>  -->
+<?php 
+}
+?>
+
 
 <?php
-get_footer();
+get_footer(); /* hämtar footer */
 ?>
