@@ -23,3 +23,23 @@
 
 5/5
 -MAMP-problemet var att jag hade satt siteurl/home till local istället för localhost i min databas.
+
+-created woo-functions.php because the file functions.php was getting to long
+-woo-functions.php is included in functions.php
+-woo-functions.php is for hooks and functions for the archive-products.php/taxonomy-product-cat.php-pages
+-created taxonomy-product-cat.php which controlles pages for specific product categories
+
+-Now the product category menu is visable even on the specific category pages. disabled setting in widget to not only show children of the current category
+
+-added category menu ( 'printNavMenu' ) with 'custom_before_main_content'-hook instead
+-removed 'woocommerce_get_sidebar' from 'woocommerce_sidebar'-hook
+-changed pagination to be printed within a div that centers the content
+-css styling on shop-pages
+
+-changes to styling on Shop pages
+-added a specific header to archive-products.php to get specific css-files (temporary fix)
+
+6/5
+-Gått igenom vilka krav vi har kvar på hemsidan
+-Pratat med Ian och förtydligat vad som menas med att utnyttja cache
+-Skapat mobilanpassad header

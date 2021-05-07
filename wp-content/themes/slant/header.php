@@ -11,18 +11,29 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/style.css' //get_template_directory_uri() länkar till themes-mappen ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/header.css' ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/footer.css' ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/home.css' ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/main.css' ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/single-product.css' ?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/home.css' ?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/single-post.css' ?>">
+    <?php if(  is_product()  )
+    {?> <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/single-product.css' ?>"> <?php } ?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/shop.css' ?>">
-
+   
     <title>Blomsterslanten</title>
 </head>
-<body>
+<body <?php body_class()?>>
 
 <?php wp_head(); ?>
 
-<header>
+<header id="mobile">
+    <div id="mobile-header-left">
+        <a id="logo" href="<?php echo get_site_url() ?>" rel="home"><img src="<?php echo get_site_url().'/assets/img/logo - changed.png' ?>"></a>
+    </div>
+    <div id="mobile-header-right">
+        
+    </div>
+</header>
+
+<header id="desktop">
     <div id="header-left">
         <?php wp_nav_menu( array( 'theme_location' => 'menu-header' ) ); ?>    
     </div>
