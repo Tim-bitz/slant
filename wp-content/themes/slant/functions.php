@@ -83,6 +83,17 @@ register_sidebar(
     ]
 );
 
+//widget för senaste inlägg
+register_sidebar(
+    [
+        'name' => 'Senaste inlägg',
+        'description' => 'Visar det senaste inlägget',
+        'id' => 'senaste',
+        'before_widget' => ' ',
+        'after_widget' => ' '
+    ]
+);
+
 
 // Visar vilken template aktuell sida använder
 function meks_which_template_is_loaded() {
