@@ -31,7 +31,7 @@ get_header();
             
             ?>">
 
-                <a href=""><img src="<?php the_post_thumbnail_url(); ?>" alt="kampanjBilder" style="width:100%;"></a>
+                <a href= ' <?php get_field('plats') ?> '><img src="<?php the_post_thumbnail_url('medium'); ?>" alt="kampanjBilder" style="width:100%;"></a>
             </div>
 
             <?php
@@ -69,6 +69,7 @@ get_header();
 
 <?php dynamic_sidebar('bastakat'); ?>
 
+<?php dynamic_sidebar('senaste'); ?>
 
 <!-- </div>  -->
 
