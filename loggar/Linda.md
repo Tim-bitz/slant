@@ -34,10 +34,16 @@ Jag fortsätte dagen med att styla och få ut mer på bloggsidan. På eftermidda
 
 Nu på eftermiddag/kväll har jag skapat våra kampanjbilder till bildspelet. Förhoppningsvis blir alla nöjda över dem. Jag tycker att dem blev fina ialla fall! 
 
-Lyckades hämta en av 3 bilder från databasen, den stora frågan är hur man får ut resten. Hmmmmm......
+Lyckades hämta 1 av 3 bilder från databasen, den stora frågan är hur man får ut resten. Hmmmmm......
 
 
 Hur jag löste det får du reda på i nästa logg!
 
 **Onsdag 5/5 2021**
+Med av hjälp av Ian löste sig "problemet" med bildspelet. Nu är tre bilder via post-type "kampanj" ute på sidan. Härligt! 
 
+Nu på eftermiddag kväll har jag suttit med att skapa bloginläggen för kampanjer och nyheter i butiken. Vi kommer framåt med mycket men de känns lite trögt nu med mina egna uppgifter då jag har kunskaper att göra halva uppgiften. 
+Men saker kommer att klarna, och imorgon kommer vi att gå igenom vilka krav vi faktiskt har klarat. 
+
+**Torsdag 5/5 2021**
+Idag har vi gått igenom G-kraven och gjort mvp på de kraven vi inte hade lyckats uppnå så förhoppningvis är det mestadels styling. 

@@ -1,13 +1,13 @@
 <?php get_header(); ?> <!-- hämtar headern -->
 
 <main>
-    <div id="blog">
-        <div class="bloggTitleDiv">
+    <div id="singleBlogg">
+        <div class="singlebloggTitleDiv">
             <h1><?php wp_title(); ?></h1> <!-- hämtar titeln på sidan -->
         </div>
         <section>
 
-            <div class="postContainer">
+            <div class="singlepostContainer">
 
                 <div class="singlePost">
                     <article>
@@ -18,9 +18,7 @@
                             <img src="<?php
                                         the_post_thumbnail_url(); ?>" /> <!-- hämtar bild från databas -->
                             <h2 class="title">
-                                <a href="<?php the_permalink() //skriver ut postens permalänk 
-                                            ?>"><?php the_title(); // skriver ut postens titel
-                                                                                                    ?></a>
+                                <a href=""><?php the_title(); ?></a> <!-- hämtar titeln -->
                             </h2>
 
                             <ul class="meta">
