@@ -3,6 +3,21 @@
     margin: 0;
 }
 
+span.select2-search {
+    display: none;
+}
+
+span.select2-selection__rendered {
+    background-color: #c4c4c4;
+    color: #4B3B40;
+}
+
+ul.select2-results__options {
+    background-color: #c4c4c4;
+    color: #4B3B40;
+}
+
+/*
 ul.product-categories {
     width: 100%;
     height: 5vh;
@@ -18,10 +33,23 @@ ul.product-categories a {
     color: #4B3B40;
 }
 
+.cat-parent .children{
+    position: absolute;
+    display: none;
+}
+
+.cat-parent:hover .children{
+    position: absolute;
+    display: block;
+}
+ */
+
 /* Div(#outer-container) that contains div(#inner-container).Purpose is to center div(#inner-container) */
 #outer-container {
     display: flex;
     justify-content: center;
+
+    margin-top: 2vh;
 }
 
 /* Div(#inner-container) contains all content but category menu */
@@ -40,28 +68,23 @@ ul.product-categories a {
 /* Displays product-cards */
 .products.columns-4 { 
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
 
-/* Last row of product-cards */
-/* .products.columns-4::after { 
-    content: "";
-    flex: auto;
-} */
+    margin-top: 2vh;
+}
 
 #pagination-div {
     display: flex;
     justify-content: center;
 }
 
-.page-numbers {
-    display: flex;
+.woocommerce-pagination {
+    width: 15%;
 }
 
-@media only screen and (max-width: 950px) {
-
-
-
-
+.page-numbers {
+    display: flex;
+    justify-content: space-evenly;
 }
