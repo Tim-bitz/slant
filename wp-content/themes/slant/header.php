@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/main.css ' ?>"> 
     <?php } elseif(  is_single()  ) {?> 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/single-post.css ' ?>"> 
-    <?php } elseif(  is_front_page() AND is_home()  ) {?> 
+    <?php } elseif( is_home()  ) {?> 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/home.css' ?>">
     <?php } else if(  is_product()  ) {?> 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/single-product.css' ?>">
