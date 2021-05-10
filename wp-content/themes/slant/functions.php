@@ -68,7 +68,8 @@ register_sidebar( // widget för sökformulär
 register_nav_menus(
     array(
         'menu-header' => 'Header meny',
-        'menu-header-two' => 'Header meny 2'
+        'menu-header-two' => 'Header meny 2',
+        'menu-mobile' => 'Mobil meny'
         )
 );
 

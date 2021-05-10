@@ -214,7 +214,7 @@ class PluginManagerBase
             $schema_version = 0;
         }
 
-        if ($schema_version < 3.1) {
+        if ($schema_version < 3.2) {
             $error_log = get_option('wpmdb_error_log');
             // skip multisite installations as we can't use add_site_option because it doesn't include an 'autoload' argument
             if (false !== $error_log && false === is_multisite()) {
@@ -222,8 +222,17 @@ class PluginManagerBase
                 add_option('wpmdb_error_log', $error_log, '', 'no');
             }
 
+            if (isset($this->settings['delay_between_requests'])) {
+                $delay_between_requests = (int) $this->settings['delay_between_requests'];
+
+                if ($delay_between_requests >= 1000) {
+                    $this->settings['delay_between_requests'] = $delay_between_requests / 1000;
+                    update_site_option('wpmdb_settings', $this->settings);
+                }
+            }
+
             $update_schema  = true;
-            $schema_version = 3.1;
+            $schema_version = 3.2;
         }
 
         if (true === $update_schema) {

@@ -1,8 +1,9 @@
 /* Single-Products */
 
 .product, .woocommerce-breadcrumb{
-    max-width:1500px;
+    max-width:90%;
     height:100%;
+    margin:0px 0px 0px 10px;
     display: flex;
     align-self: center;
     justify-content:center;
@@ -19,6 +20,10 @@
     flex-direction:column;
     align-items: flex-start;
     height:100%;
+}
+
+.woocommerce-tabs, .wc-tabs-wrapper{
+    display:inline;
 }
 .cart{
     justify-content: space-evenly;
@@ -92,7 +97,7 @@ h2{
 }
 
 .section, .related{
-    top:0;
+    margin-top:10px;
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -130,4 +135,9 @@ h2{
 
 .woocommerce-Reviews-title{
     margin:10px 0px 0px 0px;
+}
+
+.tabs, .wc-tabs, ul {
+    display:flex;
+    flex-direction: row;
 }
