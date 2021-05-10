@@ -1,15 +1,15 @@
 .flex-wrapper {
     min-height: 85vh;
-
+    width:100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 main {
-    width: 100%;
+    width:100%;
     height: auto;
-
+    padding:0px;
     display: flex;
     flex-direction: column;
 }
@@ -110,7 +110,17 @@ a:link {
   a:active {
     text-decoration: none;
   } 
-
-
-
+*/
+.wc-block-grid,
+.wp-block-product-best-sellers,
+.wc-block-product-best-sellers,
+.has-3-columns{
+    display:flex;
+    justify-content:space-evenly;
+    width:100%;
+}
+.wp-block-button, .aligncenter{
+    display:flex;
+    justify-content: center;
+}
 

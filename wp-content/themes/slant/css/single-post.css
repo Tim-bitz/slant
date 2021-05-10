@@ -38,14 +38,13 @@ article img {
 .meta {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     margin: 0;
     flex-wrap: wrap;
+    text-decoration: none;
 }
-
-#line {
-    border: 0.3rem solid #65724B;
-    width: 99.5%;
-    margin-bottom: 20px;
+.meta p{
+    padding:0px 5px 0px 5px;
 }
 
 /* aside {
@@ -82,6 +81,10 @@ li {
       color: #65724B;
   }
   
+.add_to_cart_button:hover{
+    background-color:#65724B;
+    color: white;
+  }
  
   bdi {
       color: #4B3B40;
