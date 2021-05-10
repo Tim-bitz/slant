@@ -13,12 +13,16 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/header.css' ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/footer.css' ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/main.css' ?>">
+
+    <?php if(  is_single()  ) {?> 
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/single-post.css ' ?>"> 
+    <?php } elseif(  is_front_page() AND is_home()  ) {?> 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/home.css' ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/single-post.css' ?>">
-    <?php if(  is_product()  )
-    {?> <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/single-product.css' ?>"> <?php } ?>
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/shop.css' ?>">
-   
+    <?php } else if(  is_product()  ) {?> 
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/single-product.css' ?>">
+    <?php } else if(  is_shop() OR is_product_category()  )
+    {?> <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/shop.css' ?>"> <?php } ?>
+
     <title>Blomsterslanten</title>
 </head>
 <body <?php body_class()?>>
