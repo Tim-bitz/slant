@@ -38,8 +38,13 @@ article img {
 .meta {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     margin: 0;
     flex-wrap: wrap;
+    text-decoration: none;
+}
+.meta p{
+    padding:0px 5px 0px 5px;
 }
 
 #line {
@@ -70,7 +75,7 @@ li {
 } */
 
  a:link {
-    color: #4B3B40;
+    color: white;
     text-decoration: none;
   }
   
@@ -82,6 +87,10 @@ li {
       color: #65724B;
   }
   
+.add_to_cart_button:hover{
+    background-color:#65724B;
+    color: white;
+  }
  
   bdi {
       color: #4B3B40;
