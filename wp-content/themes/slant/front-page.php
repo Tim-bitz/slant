@@ -3,6 +3,7 @@
 <?php
 get_header(); /* hämtar header */
 ?>
+?>
 
 <div class="container" style="width: 100%">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -29,14 +30,17 @@ get_header(); /* hämtar header */
         ?> 
             <div class="item <?php 
             if($varvRäknare === 0)
-            {echo 'active';}
+            {echo 'active';} 
             
             ?>">
 
-                <a href= ' <?php get_field('plats') ?> '><img src="<?php the_post_thumbnail_url('medium'); ?>" alt="kampanjBilder" style="width:100%;"></a>
+                <a href= ' <?php echo get_field('kampanjlank') ?> '><img src="<?php the_post_thumbnail_url(); ?>" alt="kampanjBilder" style="width:100%;"></a>
+
+                
             </div>
 
             <?php
+
             $varvRäknare = $varvRäknare + 1;
         } //avslutar loopen
 
@@ -72,10 +76,16 @@ get_header(); /* hämtar header */
 <div><?php the_content();?></div>
 
 
-<?php 
+<?php
 }
 ?>
+</div>
 
+
+
+
+
+<!-- </div>  -->
 
 <?php
 get_footer(); /* hämtar footer */
