@@ -10,3 +10,7 @@ Version: 1.0
     box-sizing: border-box;
 }
 
+.wc-block-grid__product{
+    border:0px;
+
+}

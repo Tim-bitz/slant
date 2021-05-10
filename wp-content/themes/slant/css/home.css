@@ -5,16 +5,14 @@
 #blog {
     width: 100%;
     height: auto;
-    padding: 9vh 9vw;
+    /* padding: 9vh 9vw; */
 
     display: flex;
     flex-direction: column;
 }
-
-.bloggTitleDiv {
-    margin-top: -50px;
-}
-
+/* .wc-block-grid__product{
+    border:100px;
+} */
 .postContainer {
     display: flex;
 }
@@ -66,6 +64,7 @@ li {
     margin-right: 5px;
     color: black;
 }
+
 
 /* .widettitle {
     padding: 50px;
