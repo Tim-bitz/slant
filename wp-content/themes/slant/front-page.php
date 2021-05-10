@@ -34,10 +34,12 @@ get_header(); /* hämtar header */
             
             ?>">
 
-<a href= ' <?php get_field('plats') ?> '><img src="<?php the_post_thumbnail_url('medium'); ?>" alt="kampanjBilder" style="width:100%;"></a>
+                <a href= ' <?php echo get_field('kampanjlank') ?> '><img src="<?php the_post_thumbnail_url(); ?>" alt="kampanjBilder" style="width:100%;"></a>
+
             </div>
 
             <?php
+
             $varvRäknare = $varvRäknare + 1;
         } //avslutar loopen
 
