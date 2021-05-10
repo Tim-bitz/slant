@@ -11,9 +11,7 @@ if (have_posts() ) {
         the_title();
         echo '</h3>';
 
-        echo '<p>';
-        the_content();
-        echo '</p>';
+        echo get_post_meta( get_the_ID(), 'plats', true );
 
         ?>
 
