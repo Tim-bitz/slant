@@ -3,7 +3,6 @@
 <?php
 get_header(); /* hämtar header */
 ?>
-?>
 
 <div class="container" style="width: 100%">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
