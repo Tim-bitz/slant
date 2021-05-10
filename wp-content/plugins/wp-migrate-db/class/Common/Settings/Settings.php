@@ -47,6 +47,8 @@ class Settings
 
     public function get_settings_for_frontend()
     {
+        // Always get fresh settings for the frontend.
+        $this->load_settings();
         $existing_settings = $this->settings;
 
         if (!empty($existing_settings['licence'])) {

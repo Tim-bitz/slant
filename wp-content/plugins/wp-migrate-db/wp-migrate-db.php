@@ -4,7 +4,7 @@ Plugin Name: WP Migrate DB
 Plugin URI: https://wordpress.org/plugins/wp-migrate-db/
 Description: Exports your database as a MySQL data dump (much like phpMyAdmin), does a find and replace on URLs and file paths, then allows you to save it to your computer.
 Author: Delicious Brains
-Version: 2.0
+Version: 2.0.1
 Author URI: https://deliciousbrains.com
 Network: True
 Text Domain: wp-migrate-db
@@ -23,7 +23,7 @@ Domain Path: /languages/
 // **********************************************************************
 
 $wpmdb_base_path                                   = dirname( __FILE__ );
-$GLOBALS['wpmdb_meta']['wp-migrate-db']['version'] = '2.0';
+$GLOBALS['wpmdb_meta']['wp-migrate-db']['version'] = '2.0.1';
 
 $plugin_root = '/';
 
