@@ -95,6 +95,16 @@ register_sidebar(
     ]
 );
 
+//widget för senaste blogginlägg
+register_sidebar(
+    [
+        'name' => 'bloggpuff',
+        'description'=> 'länk till senaste blogginlägget',
+        'id' => 'bloggpuff',
+        'before_widget' => ' '
+    ]
+);
+
 
 // Visar vilken template aktuell sida använder
 function meks_which_template_is_loaded() {
