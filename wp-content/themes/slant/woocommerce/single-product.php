@@ -20,6 +20,8 @@ get_header();
 
 
 <?php while ( have_posts() ) : ?>
+	<div class="superdiv">
+
 	<?php the_post(); ?>
 	<?php remove_action("woocommerce_after_single_product_summary","woocommerce_output_product_data_tabs",10)?>
 	
@@ -41,6 +43,8 @@ get_header();
 		 */
 		do_action( 'woocommerce_after_main_content' );
 		?>
+
+	</div>
 
 	<?php
 		/**
