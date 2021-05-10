@@ -10,7 +10,10 @@
  På förmiddagen satt jag med Linda och Ian och kollade på hur man löser karusellbildspel och custom post field. 
  Jag har även satt upp första custom fältet och fortsatt arbetet  med butik sidan.
 
+6/5
+ butik sidan fungerar med karta och custom fält. fixade så att blogginlägg länkar till produkter. satte upp karuselen med linda och ian. Fick mer hjälp av ian med att kolla på cache och optimering. Vi svärmat några problem som grupp också, fixat i trello, kollat över krav och förfinat backlog.
 
+ 7/5 Har kollat igenom bildstorlekerna på hemsidan. lyckades till slut att få slidsen på första sidan att länka till rätt kampanjer, med hjälp av nya custom post types och get_field('kampanjfalt') i loopen. Har mobilanpassat lite och suttit lite med gruppen. 
 
 
 
