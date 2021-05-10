@@ -5,7 +5,7 @@ Tags: Export WordPress, Migrate WordPress, WordPress database plugin, WordPress 
 Requires at least: 5.2
 Tested up to: 5.7
 Requires PHP: 5.6
-Stable tag: 2.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -181,6 +181,13 @@ Find out all relevant [pricing information over on our official site](https://de
 3. Saving the exported database
 
 == Changelog ==
+
+= WP Migrate DB 2.0.1 - 2021-05-06 =
+* Bug fix: Replacing a string with nothing not supported
+* Bug fix: Plugin not working on sites with a custom REST API URL
+* Bug fix: Plugin not working on sites with a custom plugin directory
+* Bug fix: 'gmdateI18n' function not available on older versions of WordPress
+* Bug fix: Javascript file with tilde in filename blocked by some firewalls
 
 = WP Migrate DB 2.0 - 2021-04-28 =
 * New: Brand new user interface powered by React. [Read the release post](https://deliciousbrains.com/wp-migrate-db-pro-2-0-released/?utm_campaign=changelogs&utm_source=wordpress.org&utm_medium=free%2Bplugin%2Blisting&utm_content=MDB20)
