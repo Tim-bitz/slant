@@ -1,4 +1,9 @@
 ## Logg projekt SLANT
+# 8. 10/5 Måndag
+
+# 7. 7/5
+# 6. 6/5
+# 5. 5/5
 # 4. 4/5 Tisdag
 Samling kl 0900 och genomgång av vad vi gjort sedan sist...
 Eget arbete fram till lunch och avstämning kl 13. Jag fortsatte med arbetet med footer och nästa steg att lägga in det i wp.
