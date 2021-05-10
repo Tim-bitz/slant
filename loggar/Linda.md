@@ -47,3 +47,9 @@ Men saker kommer att klarna, och imorgon kommer vi att gå igenom vilka krav vi 
 
 **Torsdag 5/5 2021**
 Idag har vi gått igenom G-kraven och gjort mvp på de kraven vi inte hade lyckats uppnå så förhoppningvis är det mestadels styling. 
+
+**Fredag 6/5 2021**
+Försökte skapa framsidan med hjälp av woocommerce egna tillbehör där man kan välja vad man vill visa på en viss sida. Denna funktion verkar fungera fint på locala men tyvärr strular den på one.com. Varför vet vi inte riktigt?
+Skapat mobilanpassning för de flesta sidor
+
+**Måndag 6/5 2021**

@@ -36,6 +36,7 @@ get_header(); /* hämtar header */
 
                 <a href= ' <?php echo get_field('kampanjlank') ?> '><img src="<?php the_post_thumbnail_url(); ?>" alt="kampanjBilder" style="width:100%;"></a>
 
+                
             </div>
 
             <?php
