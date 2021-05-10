@@ -40,22 +40,6 @@
     <a id="logo-mobile" href="<?php echo get_site_url() ?>" rel="home"><img src="<?php echo get_site_url().'/assets/img/logo - changed.png' ?>"></a>
 </div>
 
-    <!-- <div id="mobile-header-left">
-        <a id="logo-mobile" href="<?php echo get_site_url() ?>" rel="home"><img src="<?php echo get_site_url().'/assets/img/logo - changed.png' ?>"></a>
-    </div>
-    <div id="mobile-header-right">
-        
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-bars fa-3x"></i>
-            </button>
-
-            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                <?php wp_nav_menu( array( 'theme_location' => 'menu-mobile' ) ); ?> 
-            </div>
-        </div>
-
-    </div> -->
 </header>
 
 <header id="desktop">
