@@ -44,6 +44,8 @@ get_header(); /* hämtar header */
         ?>
     
         </div>
+
+
         <!-- end wrapper -->
        
         <!-- loop start -->
@@ -64,6 +66,8 @@ get_header(); /* hämtar header */
         </a>
     </div>
 </div>
+
+<div id="bloggpuff"><?php dynamic_sidebar('bloggpuff')?></div>
 
 
 <?php while (have_posts()) { //startar loopen
