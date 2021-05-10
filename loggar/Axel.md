@@ -43,3 +43,7 @@
 -Gått igenom vilka krav vi har kvar på hemsidan
 -Pratat med Ian och förtydligat vad som menas med att utnyttja cache
 -Skapat mobilanpassad header
+
+7/5
+-Forsatt mobilanpassa headern. Nu har den en fungerande collapse-meny
+-Efter lunch har localhost fungerat sådär. Ibland funkar hemsidan ibland får jag felet: "The requested URL /index.php was not found on this server" Funkar av och till utan att jag ändrar nåt, så gissar på att MAMP krånglar

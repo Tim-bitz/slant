@@ -10,3 +10,16 @@
 * Styla Single-product.php , Försökt forma layout efter mockup med viss utmaning av program och tekniskt motgång. Tillsammans med grupp förfina produktloggen.
 * felsökt varför mamp och databas inte pratar. 
  04/05/2021
+
+* Fått i ordning Single-produkt sidan med en ok layout, hanterat mestadels css och hooks för att få till placering med flex,padding,margin och nyttjande av det bestämda färgschemat.
+* Brytit ut Kraven för tydligar behov av vad som faktiskt behöver göras för uppgiften.
+ /05/05/2021
+
+* Grupp - gått igenom kraven och kontrollerat vad som är klart och vad som är kvar. Svärmat på att ta fram Sidan Butik och hittat alternativa sätt att ta fram en karta.
+Nyttjat plugins men vid begränsing av att den visar endast engång. Vi Tog hjälp av google maps då de hade färdg kod med imbäddning att lägga på sidan som ävensnabbt länkar till google maps.
+ 06/05/2021
+
+* hanterar tillvisdel anpasning för bilder
+* Mobilanpassning och rensing av onödig kod då alla i gruppen nyttjat display:flex; flitigt men skapat oreda i utförandet.
+* Felsökt i bloggsidan varför content går utanför i mobil version. Som grupp har vi inte fått fram ännu om det är Wordpress grund kod eller om det är vi som grupp kodat något som går utöver vårat content.
+ 07/05/2021
