@@ -92,3 +92,7 @@ li {
   article .title {
       color: #4B3B40;
   }
+
+  .block-grid__product{
+      border-color:purple;
+  }

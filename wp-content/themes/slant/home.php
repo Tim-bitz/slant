@@ -7,9 +7,9 @@
         </div>
         <section>
 
-            <div class="postContainer">
+            <!-- <div class="postContainer">
 
-                <div class="singlePost">
+                <div class="singlePost"> -->
                     <article>
                         <?php while (have_posts()) { //startar loopen
                             the_post();
@@ -42,8 +42,8 @@
 
                     </article>
 
-                </div>
-            </div>
+          <!--       </div>
+            </div> -->
     </div>
 </main>
 
