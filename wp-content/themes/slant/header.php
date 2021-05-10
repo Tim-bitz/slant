@@ -12,9 +12,10 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/style.css' //get_template_directory_uri() länkar till themes-mappen ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/header.css' ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/footer.css' ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/main.css' ?>">
 
-    <?php if(  is_single()  ) {?> 
+    <?php if(  is_front_page()  ) {?> 
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/main.css ' ?>"> 
+    <?php } elseif(  is_single()  ) {?> 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/single-post.css ' ?>"> 
     <?php } elseif(  is_front_page() AND is_home()  ) {?> 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/home.css' ?>">
