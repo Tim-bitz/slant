@@ -1,26 +1,46 @@
+/* li containing product category menu */
 #woocommerce_product_categories-2 {
     max-width: 100%;
     margin: 0;
 }
 
+/* search bar on dropdown within product category menu */
 span.select2-search {
     display: none;
 }
 
+/* sets color of product category menu */
 span.select2-selection__rendered {
     background-color: #c4c4c4;
     color: #4B3B40;
 }
 
+/* sets color of product category menu dropdown area */
 ul.select2-results__options {
     background-color: #c4c4c4;
     color: #4B3B40;
 }
 
+/* the header that shows the chosen category */
+.woocommerce-products-header {
+    display: block !important;
+    justify-content: unset !important;
+}
+
+/* category title within category header */
+.woocommerce-products-header h1 {
+    justify-content: unset !important;
+}
+
+/* category description within category header */
+.term-description p {
+    margin: 20px 0 !important;
+}
+
 /* product card / the li-elemtent that contains product image/name/price/add to cart */
 li.type-product {
     max-width: 300px;
-    margin: 0 10px;
+    margin: 10px;
 }
 
 /* removes dots infront of li-element */
@@ -38,17 +58,9 @@ ul.page-numbers {
     list-style: none;
 }
 
-/* Div(#outer-container) that contains div(#inner-container).Purpose is to center div(#inner-container) */
-#outer-container {
-    display: flex;
-    justify-content: center;
-
-    margin-top: 2vh;
-}
-
-/* Div(#inner-container) contains all content but category menu */
-#inner-container {
-    width: 95%;
+/* sets padding of main-container (2.5% padding is the same as setting a width of 95% which matches rest of page) */
+#primary {
+    padding: 2.5%;
 }
 
 /* Displays product-cards */
@@ -69,16 +81,28 @@ ul.page-numbers {
     margin-top: 3vh;
 }
 
+/* div to center pagination */
 #pagination-div {
     display: flex;
     justify-content: center;
 }
 
+/* inner div to set width of pagination buttons */
 .woocommerce-pagination {
     width: 15%;
+    font-size: 20px;
 }
 
+/* styles ul-element of pagination */
 .page-numbers {
     display: flex;
     justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 800px) {
+   /* inner div to set width of pagination buttons below 800px */
+.woocommerce-pagination {
+    width: 100%;
+}
+
 }

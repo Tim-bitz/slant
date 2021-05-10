@@ -14,3 +14,19 @@ Version: 1.0
     border:0px;
 
 }
+
+.flex-wrapper {
+    min-height: 85vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+}
