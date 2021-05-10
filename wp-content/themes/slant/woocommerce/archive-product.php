@@ -31,9 +31,6 @@ do_action( 'custom_before_main_content' );
 
 ?>
 
-<div id="outer-container">
-<div id="inner-container">
-
 <?php
 
 do_action( 'woocommerce_before_main_content' );
@@ -114,9 +111,6 @@ do_action( 'woocommerce_after_main_content' );
 do_action( 'woocommerce_sidebar' );
 
 ?>
-
-</div> <!-- inner-container -->
-</div> <!-- outer-container -->
 
 <?php
 
