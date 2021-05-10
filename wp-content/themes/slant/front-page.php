@@ -20,7 +20,7 @@ get_header(); /* hämtar header */
         ?>
 
         <!-- Wrapper for slides -->
-        <div class="carousel-inner" style="max-height: 500px;">
+        <div class="carousel-inner" style="max-height: auto;">
 
          <?php $varvRäknare = 0; ?>
         <?php while ($kampanjPoster->have_posts()) { //startar loopen
@@ -30,12 +30,10 @@ get_header(); /* hämtar header */
             <div class="item <?php 
             if($varvRäknare === 0)
             {echo 'active';} 
-            
             ?>">
 
-                <a href= ' <?php echo get_field('kampanjlank') ?> '><img src="<?php the_post_thumbnail_url(); ?>" alt="kampanjBilder" style="width:100%;"></a>
-
-                
+                <a href= ' <?php echo get_field('kampanjlank') ?> '><img src="<?php the_post_thumbnail_url(); ?>" alt="kampanjBilder" style="width:100%;"></a>              
+       
             </div>
 
             <?php

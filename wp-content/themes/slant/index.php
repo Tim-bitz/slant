@@ -14,7 +14,6 @@ if (have_posts() ) {
         echo '<p>';
         the_content();
         echo '</p>';
-    najs
     }
 } else {
     echo 'Denna sidan är tom.';
