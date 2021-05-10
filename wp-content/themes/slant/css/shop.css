@@ -64,8 +64,8 @@ ul.page-numbers {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-
+    justify-content: space-around;
+    padding:0;
     margin-top: 3vh;
 }
 

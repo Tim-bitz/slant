@@ -47,12 +47,6 @@ article img {
     padding:0px 5px 0px 5px;
 }
 
-#line {
-    border: 0.3rem solid #65724B;
-    width: 99.5%;
-    margin-bottom: 20px;
-}
-
 /* aside {
     margin-left: 10px;
     width: 25%;
@@ -75,7 +69,7 @@ li {
 } */
 
  a:link {
-    color: white;
+    color: #4B3B40;
     text-decoration: none;
   }
   

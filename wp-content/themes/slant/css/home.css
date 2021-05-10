@@ -21,10 +21,10 @@ li{
 }
 
 article {
-    width: 80%;
-    padding: 30px;
+    width: 100%;
+    /* padding: 30px; */
     max-width: 100%;
-    margin: 20px;
+    /* margin: 20px; */
     display:flex;
     flex-direction: column;
 }
@@ -36,11 +36,15 @@ article img {
 
 .meta {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
+    justify-content:center;
     margin: 0;
+    flex-wrap: wrap;
+    text-decoration: none;
     list-style-type: none;
-   
+}
+.meta p{
+    padding:0px 10px 0px 10px;
 }
 
 #line {
@@ -72,7 +76,7 @@ li {
 } */
 
  a:link {
-    color: #4B3B40;
+    color: #ffffff;
     text-decoration: none;
   }
   
@@ -101,9 +105,16 @@ li {
     .has-3-columns,
     .has-multiple-rows {
         width:100%;
+
+
     }
-
-
+    .add_to_cart_button:hover{
+        color: white;
+    }
+    .add_to_cart_button:hover{
+        background-color:#65724B;
+        color: white;
+    }
     li.wc-block-grid__product{
         
         width:95%;
@@ -111,9 +122,14 @@ li {
         flex-direction: column;
         justify-content: center;
         margin-bottom:20px;
+        background-color:#9FB17C;
     }
+    .wc-block-featured-category__wrapper{
+        display:flex;
+        align-items: center;
 
-    .wc-block-featured-category__wrappe{
+    }
+    .wp-block-button, .aligncenter{
         display:flex;
         justify-content: center;
     }
