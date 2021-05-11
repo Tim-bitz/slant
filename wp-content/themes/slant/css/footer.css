@@ -16,10 +16,14 @@ footer {
 .footerDiv {
     width: 30%;
 }
-
+.widgettitle{
+    text-align: left;
+    padding-left:5px;
+    padding-right:10px;
+}
 
 .footerOne {
-    width: 100%;
+    width: 110%;
     height: auto;
     padding: 1 5vw;
     margin-left: 14vw;
@@ -38,12 +42,28 @@ footer {
 
 .footerOne a:link {
    color: black;
+   text-decoration: none;
+   padding:5px;
+   color:#4B3B40;
+   transition: 200ms ease-in;
     
+}
+.footerOne a:active {
+    color: #9FB17C;
+    font-weight: bold;
+    background-color:#4B3B40;
+}
+
+.footerOne a:focus {
+    color: #9FB17C;
+    font-weight: bold;
+    background-color:#4B3B40;
 }
 
 .footerOne a:hover {
-    color: orange;
-    font-size: large;
+    color: #9FB17C;
+    font-weight: bold;
+    background-color:#4B3B40;
 }
 
 @media only screen and (min-width: 750px) {
@@ -56,8 +76,8 @@ footer {
 
         font-size: 1.2vw;
 
-        /* background-color: #9FB17C;
-        color: #4B3B40; */
+        /* background-color#4B3B40
+        color: #9FB17C; */
 
         display: flex;
         align-items: center;

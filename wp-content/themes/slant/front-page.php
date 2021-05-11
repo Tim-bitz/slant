@@ -1,21 +1,13 @@
-
-
 <?php
 get_header(); /* hämtar header */
 ?>
 
 <div class="container" style="width: 100%">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
+   
         <?php
-        $beställning = ['post_type' => 'kampanj'];
-        $kampanjPoster = new WP_Query($beställning);
+        $beställning = ['post_type' => 'kampanj']; //"beställning" på posttype
+        $kampanjPoster = new WP_Query($beställning); //metod
 
         ?>
 
@@ -23,7 +15,7 @@ get_header(); /* hämtar header */
         <div class="carousel-inner" style="max-height: auto;">
 
          <?php $varvRäknare = 0; ?>
-        <?php while ($kampanjPoster->have_posts()) { //startar loopen
+        <?php while ($kampanjPoster->have_posts()) { //startar loopen för postType
             $kampanjPoster->the_post();
 
         ?> 
@@ -31,7 +23,7 @@ get_header(); /* hämtar header */
             if($varvRäknare === 0)
             {echo 'active';} 
             ?>">
-
+                <!-- hämtar kampanjlänk och kampanjbild -->
                 <a href= ' <?php echo get_field('kampanjlank') ?> '><img src="<?php the_post_thumbnail_url(); ?>" alt="kampanjBilder" style="width:100%;"></a>              
        
             </div>
@@ -45,17 +37,7 @@ get_header(); /* hämtar header */
     
         </div>
 
-
-        <!-- end wrapper -->
-       
-        <!-- loop start -->
-
-       
-
-        
-        <!-- end loop -->
-
-        <!-- Left and right controls -->
+        <!-- vänster och höger pilar -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
             <span class="sr-only">Previous</span>
@@ -67,26 +49,22 @@ get_header(); /* hämtar header */
     </div>
 </div>
 
+<!-- widget för bloggpuffen -->
 <div id="bloggpuff"><?php dynamic_sidebar('bloggpuff')?></div>
 
 
-<?php while (have_posts()) { //startar loopen
+<?php while (have_posts()) { //startar loopen för content i inlägget
             the_post();?>
 
-<h1><?php the_title(); ?></h1>
+<h1><?php //the_title(); ?></h1>
 <div><?php the_content();?></div>
 
 
 <?php
-}
+} //avslutar loopen
 ?>
 </div>
 
-
-
-
-
-<!-- </div>  -->
 
 <?php
 get_footer(); /* hämtar footer */
