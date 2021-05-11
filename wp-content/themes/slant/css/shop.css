@@ -37,12 +37,6 @@ ul.select2-results__options {
     margin: 20px 0 !important;
 }
 
-/* product card / the li-elemtent that contains product image/name/price/add to cart */
-li.type-product {
-    max-width: 300px;
-    margin: 10px;
-}
-
 /* removes dots infront of li-element */
 ul.products {
     list-style: none;
