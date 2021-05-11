@@ -18,10 +18,10 @@ ul.select2-results__options {
 }
 
 /* product card / the li-elemtent that contains product image/name/price/add to cart */
-li.type-product {
+/* li.type-product {
     max-width: 300px;
     margin: 0 10px;
-}
+} */
 
 /* removes dots infront of li-element */
 ul.products {
