@@ -23,3 +23,11 @@ Nyttjat plugins men vid begränsing av att den visar endast engång. Vi Tog hjä
 * Mobilanpassning och rensing av onödig kod då alla i gruppen nyttjat display:flex; flitigt men skapat oreda i utförandet.
 * Felsökt i bloggsidan varför content går utanför i mobil version. Som grupp har vi inte fått fram ännu om det är Wordpress grund kod eller om det är vi som grupp kodat något som går utöver vårat content.
  07/05/2021
+
+* Mobil anpassning mot single-produkt.php och blogg.
+Denna dag var en tekniskt trul dag på flera fronter och mycket disskussion på hur vi vill gå vidare. Dels cache, utarbetade och små missar som enkelt korrigeras. Gruppen är enad om sidans struktur och design.
+10/05/2021
+
+* accepterat förlust mot single-prosukt.php då jag inte kunnat lägga kanppen och additional info + reviews till höger om bilden utan blev under bilden. Komplikationen var att bilden gjorde sig extra stor och ohanterlig för kunden. 
+* Gjort att länkar följer i stort samma färg tema som alla andra och att meny länker får ett brunt block vid hover. Lade till en transtion för att ge det en behagligare upplevelse för ögat. 
+11/05/2021

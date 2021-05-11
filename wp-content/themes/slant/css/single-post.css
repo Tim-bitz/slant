@@ -10,9 +10,9 @@
     flex-direction: column;
 }
 
-.postContainer {
-    /* display: flex; */
-}
+/* .postContainer {
+    display: flex;
+} */
 
 .singlePost {
     display: flex;
