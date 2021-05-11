@@ -58,3 +58,10 @@ Vi har fortsatt med styling och fått fram en puff med senaste inlägget på sta
 Problem med styling, vi har olika stylings och har i dagsläget, vi vet inte varför det är så. 
 
 Vi löste det, det fanns en header-shop.php som störde
+
+**Tisdag 6/5 2021**
+Vi har fokuserat på småfix i koden. Vi har skapat rabattkoder, vilket gjorde att jag fick uppdatera bilderna i bildspelet. 
+Vi är i stort sätt klara med alling. Efter lunch blir det en extra titt på presentationen och manualen. 
+
+Imorgon hoppas jag att vi skickar in vårat arbete för en längre helg :) 
+
