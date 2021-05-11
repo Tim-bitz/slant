@@ -131,4 +131,10 @@ a:link {
     display:flex;
     justify-content: center;
 }
-
+@media only screen and (max-width: 800px) {
+    /* inner div to set width of pagination buttons below 800px */
+.iframe{
+    width:100%;
+}
+ 
+ }
