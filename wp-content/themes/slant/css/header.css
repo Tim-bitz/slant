@@ -41,17 +41,32 @@
 }
 
 .menu li {
-    display: inline;
-    padding: 0 2vw 0 0;
+    display:inline;
 }
 
 .menu a {
     text-decoration: none;
     text-transform: uppercase;
-
     color: #4B3B40;
+    padding:10px;
+    transition: 200ms ease-in;
 }
 
+.menu a:active{
+    color:#9FB17C;
+    background-color:#4B3B40;
+    font-weight: bold;
+}
+.menu a:focus{
+    color:#9FB17C;
+    background-color:#4B3B40;
+    font-weight: bold;
+}
+.menu a:hover{
+    color:#9FB17C;
+    background-color:#4B3B40;
+    font-weight: bold;
+}
 /* MOBILE */
 
 /* header */
