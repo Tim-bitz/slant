@@ -22,7 +22,9 @@
     <?php } else if(  is_product()  ) {?> 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/single-product.css' ?>">
     <?php } else if(  is_shop() OR is_product_category()  )
-    {?> <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/shop.css' ?>"> <?php } ?>
+    {?> <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/shop.css' ?>"> 
+    <?php } else if(  is_cart() OR is_checkout() OR is_account_page()  )
+    {?> <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/account_and_cart.css' ?>"> <?php } ?>
 
     <title>Blomsterslanten</title>
 </head>
@@ -36,7 +38,7 @@
     <div class="pos-f-t">
     <div class="collapse" id="navbarToggleExternalContent">
         <div class="bg-dark p-4">
-        <h5 class="text-white h4"><?php wp_nav_menu( array( 'theme_location' => 'menu-mobile' ) ); ?></h5>
+        <h5 class="text-white h4"><?php wp_nav_menu( array( 'theme_location' => 'menu-mobile', 'before' => '<h4>', 'after' => '</h4>' ) ); ?></h5>
         </div>
     </div>
     <nav class="navbar navbar-dark bg-dark">
@@ -53,7 +55,7 @@
 
 <header id="desktop">
     <div id="header-left">
-        <?php wp_nav_menu( array( 'theme_location' => 'menu-header' ) ); ?>    
+        <?php wp_nav_menu( array( 'theme_location' => 'menu-header', 'before' => '<h4>', 'after' => '</h4>' ) ); ?>    
     </div>
 
     <div id="header-center">
@@ -61,7 +63,7 @@
     </div>
 
     <div id="header-right">
-    <?php wp_nav_menu( array( 'theme_location' => 'menu-header-two' ) ); ?>   
+    <?php wp_nav_menu( array( 'theme_location' => 'menu-header-two', 'before' => '<h4>', 'after' => '</h4>' ) ); ?>   
     </div>
 </header>
 
