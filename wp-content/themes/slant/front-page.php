@@ -4,7 +4,7 @@ get_header(); /* hämtar header */
 
 <div class="container" style="width: 100%">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    
+   
         <?php
         $beställning = ['post_type' => 'kampanj']; //"beställning" på posttype
         $kampanjPoster = new WP_Query($beställning); //metod
@@ -56,7 +56,7 @@ get_header(); /* hämtar header */
 <?php while (have_posts()) { //startar loopen för content i inlägget
             the_post();?>
 
-<h1><?php the_title(); ?></h1>
+<h1><?php //the_title(); ?></h1>
 <div><?php the_content();?></div>
 
 
