@@ -25,12 +25,12 @@ footer {
 .footerOne {
     width: 110%;
     height: auto;
-    padding: 1 5vw;
+    padding: 1 3vw;
     margin-left: 14vw;
 
     background-color: #9FB17C;
     color: #4B3B40;
-    font-size: 3.5vw;
+    font-size: 3vw;
     
     align-items: center;
     justify-content: space-around;
@@ -71,7 +71,7 @@ footer {
         width: 100%;
         height: auto;
 
-        padding: 0 5vw;
+        padding: 0 3vw;
         margin-left: 0;
 
         font-size: 1.2vw;
@@ -85,7 +85,7 @@ footer {
     }
 
     .footerOne H2 {
-        font-size: 2vw;
+        font-size: 1.8vw;
     }
 
     
