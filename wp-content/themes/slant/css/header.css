@@ -92,6 +92,11 @@
     height: 12vh;
 }
 
+
+#menu-mobilmeny {
+    padding: 0 !important; /* removes unwanted padding in mobile menu */
+}
+
 #mobile .menu-item {
     display: flex;
     flex-direction: column;

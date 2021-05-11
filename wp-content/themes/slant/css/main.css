@@ -66,6 +66,31 @@ h1 {
     padding: 0;
 }
 
+.widgettitle {
+    font-size: 15px;
+    color: #4B3B40;
+    font-weight: bold;
+    list-style-type: none
+}
+
+
+#bloggpuff {
+    margin-top: 10px;
+    background-color: #9FB17C;
+    text-align: center;
+}
+
+#bloggpuff a {
+    color: #4B3B40;
+    text-decoration: none;
+    margin-right: 35px;
+}
+
+#bloggpuff ul {
+    list-style-type: none
+}
+
+
  /* li {
    display: flex;
    flex-direction: column;
