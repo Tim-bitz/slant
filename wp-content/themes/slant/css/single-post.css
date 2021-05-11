@@ -6,7 +6,6 @@
     width: 100%;
     height: auto;
     padding: 9vh 9vw;
-
     display: flex;
     flex-direction: column;
 }
@@ -94,7 +93,6 @@ li {
   article .title {
       color: #4B3B40;
   }
-
 
   @media ( max-width: 667px ) {
 
