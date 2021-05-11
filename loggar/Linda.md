@@ -53,3 +53,8 @@ Försökte skapa framsidan med hjälp av woocommerce egna tillbehör där man ka
 Skapat mobilanpassning för de flesta sidor
 
 **Måndag 6/5 2021**
+Ian verkar inte veta vilket problem vi har med woocomerce egna tillbehör på framsidan.
+Vi har fortsatt med styling och fått fram en puff med senaste inlägget på startsidan. 
+Problem med styling, vi har olika stylings och har i dagsläget, vi vet inte varför det är så. 
+
+Vi löste det, det fanns en header-shop.php som störde
