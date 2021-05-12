@@ -3,7 +3,7 @@
 <main>
     <div id="singleBlogg">
         <div class="singlebloggTitleDiv">
-            <h1><?php wp_title(); ?></h1> <!-- hämtar titeln på sidan -->
+        
         </div>
         <section>
 

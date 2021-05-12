@@ -65,3 +65,6 @@ Vi är i stort sätt klara med alling. Efter lunch blir det en extra titt på pr
 
 Imorgon hoppas jag att vi skickar in vårat arbete för en längre helg :) 
 
+**Onsdag 6/5 2021**
+Presentationen gick bra. Nu har vi lite småfix i CSS och sedan är vi redo för att lämna in och långhelg :)
+Jag är det ialla fall!
