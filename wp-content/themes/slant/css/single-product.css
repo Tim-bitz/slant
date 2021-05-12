@@ -65,6 +65,11 @@ div.product, div.summary{
     padding:10px 16px 10px 16px;
     background-color: #C7C3C3;
 }
+#pa_farg{
+    width:100%;
+    padding:10px 16px 10px 16px;
+    background-color: #C7C3C3;
+}
 .reset_variations{
     font-size: medium;
     color:#4B3B40;

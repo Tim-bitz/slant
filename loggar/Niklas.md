@@ -3,7 +3,6 @@
 29/04/2021
 
 * Byggt en mockup av hur sidan kan komma att se ut, Valt ut färgteman och design val tillsammans med Linda.
-
 * Bygg upp ett första skelet utav första sidan, "first-page".
 30/04/2021
 
@@ -31,3 +30,11 @@ Denna dag var en tekniskt trul dag på flera fronter och mycket disskussion på 
 * accepterat förlust mot single-prosukt.php då jag inte kunnat lägga kanppen och additional info + reviews till höger om bilden utan blev under bilden. Komplikationen var att bilden gjorde sig extra stor och ohanterlig för kunden. 
 * Gjort att länkar följer i stort samma färg tema som alla andra och att meny länker får ett brunt block vid hover. Lade till en transtion för att ge det en behagligare upplevelse för ögat. 
 11/05/2021
+
+* Haft presentation, gick utan smärre problem. Bra uppdelat mellan grupp deltagare och känndes bra att vi hade den hostande som presentation.
+* Rättat till små designs missar, som färgvalet vid sinlge-produkt.php.
+12/05/2021
+
+Kort summering:
+* Mycket felsökning i plugins functioner och css design
+* Tekniska problem gällande Mamp 
