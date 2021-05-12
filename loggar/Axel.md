@@ -1,3 +1,5 @@
+Note to Ian; byter mellan svenska och engelska här hoppas det är ok. Skriver av någon anledning på engelska i kommentarerna på commits, har kopierat de kommentarerna till loggen vissa dagar.
+
 29/4
 -Vi har satt ihop vårt gruppkontrakt.
 -Vi har diskuterat grundläggande utseende och jobbat fram en mockup.
@@ -47,3 +49,16 @@
 7/5
 -Forsatt mobilanpassa headern. Nu har den en fungerande collapse-meny
 -Efter lunch har localhost fungerat sådär. Ibland funkar hemsidan ibland får jag felet: "The requested URL /index.php was not found on this server" Funkar av och till utan att jag ändrar nåt, så gissar på att MAMP krånglar
+
+10/5
+-Lagt in if-satser med conditional tags för css-länkningen. Så specifika sidor hämtar specifik styling.
+-Stylingen på shoppingsidan såg märklig ut så rättade till det i css. Tog bort punkter framför li-element och satte max-bredd på produktkort och padding på produktcontainern.
+-removed divs I added earlier on archive-products.php, and instead styled the divs the original archive-products.php creates (primary, main and header)
+-pagination is now larger on smaller screens
+-moved styling for main divs (main and .flex-wrapper) to style.css
+
+11/5
+-Gruppen har gått igenom kraven och sett till att vi uppfyller allt.
+-Fixat detaljer i stylingen gemensamt
+-Jag har lagt in padding på cart/checkout/account-sidorna så de följer samma struktur som resten av siten
+-Vi har gått igenom vad vi vill ta upp under presentationen och delat upp vem som tar vad
