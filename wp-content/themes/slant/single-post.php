@@ -30,8 +30,7 @@
                                 <li><a href=""><?php the_category('<a>, '); ?></a></li> <!-- hämtar kategorin -->
                             </ul>
                             <p><?php the_content(); ?></p> <!-- hämtar texten i inlägget -->
-                            <hr id="line">
-                            </hr>
+                        
                         <?php
 
                         } //avslutar loopen
