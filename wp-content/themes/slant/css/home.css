@@ -10,6 +10,16 @@ main {
     width: 90%;
 }
 
+#singleBlogg {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 section{
     overflow:hidden;
     background-color: #9DB17C;

@@ -8,6 +8,7 @@
     padding: 9vh 9vw;
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 /* .postContainer {
@@ -27,6 +28,7 @@ article {
     margin: 20px;
     Padding:0px;
     margin:0px;
+
 }
 
 article img {
