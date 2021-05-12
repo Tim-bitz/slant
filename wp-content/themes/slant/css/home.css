@@ -1,6 +1,15 @@
 * {
     box-sizing: border-box;
 }
+
+.flex-wrapper {
+    align-items: center;
+}
+
+main {
+    width: 90%;
+}
+
 section{
     overflow:hidden;
     background-color: #9DB17C;

@@ -1,6 +1,5 @@
 <?php get_header(); ?> <!-- hämtar headern -->
 
-<main>
     <div id="blog">
         <div class="bloggTitleDiv">
             <h1><?php wp_title(); ?></h1> <!-- hämtar titeln på sidan -->
@@ -41,6 +40,6 @@
 
                     </article>
     </div>
-</main>
+
 
 <?php get_footer(); ?> <!-- hämtar footer -->

@@ -1,6 +1,6 @@
 <?php get_header(); ?> <!-- hämtar headern -->
 
-<main>
+
     <div id="singleBlogg">
         <div class="singlebloggTitleDiv">
         
@@ -43,6 +43,5 @@
                 </div>
             </div>
     </div>
-</main>
 
 <?php get_footer(); ?> <!-- hämtar footer -->
