@@ -22,7 +22,6 @@ main {
 
 section{
     overflow:hidden;
-    background-color: #9DB17C;
 }
 #blog {
     width: 100%;
@@ -47,6 +46,7 @@ article {
     max-width: 100%;
     /* margin: 20px; */
     display:flex;
+    background-color: #9DB17C;
     flex-direction: column;
 }
 
