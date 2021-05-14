@@ -24,23 +24,18 @@ Vi skapade ett eget tema ('slant')
 ##### Custom Post Type UI av WebDevStudios - version 1.9.1
 ##### Hide Page and Post Title av Arjun Thakur - version 1.5.6
 
-
-## Version/Uppdateringar
-2021-05-12 - version 1.0.0
-
-
-Manual 
+### Manual 
 
 Denna manual täcker de funktioner som inte är standard i woocommerce och wordpress.  
 
-Kampanjer: 
+#### Kampanjer: 
 
 Under Kampanj fliken i adminpanelen hittar du alla kampanjer som för tillfället visas i slidern på startsidan. Där går du in för att lägga till eller ta bort en kampanj. Utöver titel, där du kan skriva vad du vill att din kampanj ska heta, kan du även lägga till en utvald bild, det är denna som kommer att visas i sliden. Längst ner på sidan ser du ett fällt med titeln kampanjlänk. Där kan du klistra in den URL som du vill länka kampanjen till. Exempelvis, om du har kampanj på en specifik produkt, så kan du kopiera in länken till produkten i fältet under kampanjlänk. Kunden kan då skickas till produkten genom att klicka på länken. 
 Fältet kampanjlänk kommer ifrån tillägget ACF. 
 
 Vi rekommenderar att man använder bildformatet 1500x500px. 
 
-Butiker: 
+#### Butiker: 
 
 För att skapa en ny butik, eller för att byta adress på en nuvarande butik, så går du in på fliken butiker i adminpanelen. Tryck på knappen, lägg till ny, för att lägga till en ny butik, eller klicka på en redan existerande butik för att redigera. 
 
@@ -49,8 +44,11 @@ Där kan du under plats fältet ändra adress för din butik. Adressen dyker då
 
 Fältet butik extra uppgifter kommer ifrån tillägget ACF. 
 
- Headermeny: 
+#### Headermeny: 
 
 Headern är indelad i två menyer. Vänster om loggan ligger huvudmeny1 och till höger om loggan ligger huvudmeny2. Du kommer åt dessa genom utseende>menyer i adminläget. 
 
 På små skärmar visas istället menyn, mobilmeny i headern. 
+
+## Version/Uppdateringar
+2021-05-12 - version 1.0.0
